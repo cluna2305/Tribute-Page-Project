@@ -1,0 +1,51 @@
+  
+
+/* I tried to make sure everything was as organized as possible, made sure classes and ID's were used in the correct scenarios and that i replaced appropriate tags to be compatible with screen readers like article tags; also made sure cite tags were on sources to information i linked.*/
+  #main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #aec6cf;
+}
+  #img div {
+  align-items: right;
+  width: 50%;
+  height: 50%;
+}
+
+  #title { 
+   font-size: 35px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;   
+}
+
+  #img-caption {
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;     
+}
+   #body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #aec6cf;
+}
+   .p {
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  tab-size: 4;
+  text-indent: 2em;   
+}
+    ul {
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+   .funfacts {
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;  
+}
